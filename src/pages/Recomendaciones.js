@@ -17,12 +17,22 @@ export const Recomendaciones = () => {
           
           <ul className="pl-5 pt-5 text-xl">
 
-          <li type="square">Esto es un tipo de punto.</li>
-          <li type="square">Este es otro.</li>
-          <li type="square">Y este es otro diferente.</li> 
-          <li type="square">Esto es un tipo de punto.</li>
-          <li type="square">Este es otro.</li>
-          <li type="square">Y este es otro diferente.</li>
+
+          <li type="square">Ser mayor de 18 años </li>
+          <li type="square">Pesar mínimo de 50kg</li>
+          <li type="square">Tener buena salud.</li> 
+          <li type="square">Ayuna mínima de 4 horas.</li>
+        
+          </ul>
+
+          <h2 className="text-2xl font-bold text-center">Lista de Recomendaciones que NO SE DEBE hacer antes de donar</h2>
+          <ul className="pl-5 pt-5 text-xl">
+
+
+          <li type="square">Se ha bebido alcohol en las últimas 48 horas. </li>
+          <li type="square">Si ha tenido alguna cirugía en los últimos 6 meses.</li>
+          <li type="square">Si tiene tatuajes.</li> 
+          <li type="square">Si se padece de alguna enfermedad: Tos, Gripa, Hepatitis, Epilepsia, Sida, o alguna enfermedad del corazón.</li>
 
           </ul>
         </div>

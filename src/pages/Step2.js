@@ -8,7 +8,7 @@ export const Step2 = () => {
             <img  src="https://www.ebankingnews.com/wp-content/uploads/2011/03/credito1.gif" width="150px" height="100px" alt=""/>
         </div>
         <div>
-          <h1 className="text-lg font-sans	 text-white p-3 text-center">Disfruta de los beneficios que tenemos para ti</h1>
+          <h1 className="text-lg font-sans	 text-white p-3 text-center">Recuerda que tienes el poder de salvar vidas</h1>
         </div>
         <div>
           <div className="py-3  grid justify-items-center grid-cols">

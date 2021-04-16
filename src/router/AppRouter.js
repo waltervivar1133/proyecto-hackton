@@ -12,6 +12,7 @@ import { Beneficios } from "../pages/Beneficios";
 
 import { Inicio } from "../pages/Inicio";
 import { Recomendaciones } from "../pages/Recomendaciones";
+import { Registro } from "../pages/Registro";
 import { Step } from "../pages/Step";
 import { Step2 } from "../pages/Step2";
 import { Step3 } from "../pages/Step3";
@@ -42,6 +43,11 @@ export const AppRouter = () => {
             <Route
               path="/recomendaciones"
               component= { Recomendaciones }
+              exact
+            />
+             <Route
+              path="/historial"
+              component= { Registro }
               exact
             />
             <Route

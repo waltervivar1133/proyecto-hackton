@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavBar } from '../components/NavBar'
+import { NavBar } from '../components/NavBar';
+import { Link } from 'react-router-dom'
 
 export const Inicio = () => {
   return (
@@ -14,18 +15,33 @@ export const Inicio = () => {
               <input type="number"
                 className="border-blue-700 border-2 rounded bg-gray-100 h-10"
                 name="dni"
+                placeholder="DNI"
+              />
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="dni" className="text-lg my-1">Ingresa tu Password</label>
+              <input type="password"
+                className="border-blue-700 border-2 rounded bg-gray-100 h-10"
+                name="Contraseña"
               />
             </div>
             <div className="mt-10">
-              <button className="bg-blue-500 p-2  rounded border-blue-900 border-2 text-white font-bold">
-                Consultar
-              </button>
+              <Link to="/historial">
+                <button className="bg-blue-500 p-2  rounded border-blue-900 border-2 text-white font-bold">
+                  Consultar
+                </button>
+              </Link>
+              
             </div>
             <div className="mt-5">
+              
               <button className="bg-gray-500 p-2  rounded border-blue-900 border-2 text-white font-bold">
                 Registrar
               </button>
             </div>
+
+
+            
 
           </form>
         </main>
