@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.h-screen{
+
+  
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+
+.bg{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('https://www.ringtina.com.ar/Descargar/Fondos%20de%20Pantalla/Abstractos/ImgAbstractos%20107.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-2{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('https://www.infobae.com/new-resizer/EvJM2EFTWYabIYPk6jhmdoFk35E=/420x747/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/7OTOYDGCPJCGVODFFYPOHEOUHY.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-3{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('https://www.tubibliaonline.com/wp-content/uploads/2020/10/fondos-tumblr-cristianos-gratis-473x1024.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-4{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url('https://www.ringtina.com.ar/Descargar/Fondos%20de%20Pantalla/Abstractos/ImgAbstractos%20107.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
