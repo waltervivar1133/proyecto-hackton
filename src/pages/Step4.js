@@ -21,7 +21,7 @@ export const Step4 = () => {
             </div>
           </div>
           <div className="grid grid-rows-2"> 
-            <Link to="/donar">
+            <Link to="/recomendaciones">
             
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full border px-20 mb-3">Siguiente</button>
 

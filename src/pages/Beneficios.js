@@ -9,7 +9,7 @@ export const Beneficios = () => {
     </header>
     <main className="flex-1 overflow-y-auto p-5">
 
-    <div className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 my-3">
+    <div className="md:flex bg-yellow-300	 rounded-xl p-8 md:p-0 my-3">
      
       <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
@@ -26,7 +26,7 @@ export const Beneficios = () => {
       </div>
     </div>
 
-    <div className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 my-3">
+    <div className="md:flex bg-purple-500	rounded-xl p-8 md:p-0 my-3">
       
       <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
@@ -43,7 +43,7 @@ export const Beneficios = () => {
       </div>
     </div>
 
-    <div class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 my-3">
+    <div class="md:flex bg-yellow-500	 rounded-xl p-8 md:p-0 my-3">
      
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>
@@ -60,7 +60,7 @@ export const Beneficios = () => {
       </div>
     </div>
 
-    <div class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 my-3">
+    <div class="md:flex bg-pink-200	 rounded-xl p-8 md:p-0 my-3">
    
       <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
         <blockquote>

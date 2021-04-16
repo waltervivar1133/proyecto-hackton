@@ -20,7 +20,7 @@ export const NavBar = () => {
       </div>
       <div>
         <Link to="/ayuda">
-        <i class="fas fa-question-circle fa-lg"></i>
+        <i class="fas fa-clinic-medical fa-lg"></i>
         </Link>
       </div>
      
